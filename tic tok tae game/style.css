@@ -1,0 +1,118 @@
+h1 {
+    font-size: 3.2rem;
+	color: purple;
+}
+.table {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cell:hover{
+	background-color:paleturquoise;
+}
+.row {
+	display: flex;
+}
+.cell {
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 80px;
+	text-align: center;
+	cursor: pointer;
+}
+.cell:active {
+	outline: none;
+}
+/* 3*3 Grid */
+#b1{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#b2 {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#b3 {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#b4 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+	
+#b5 {
+	border: 1px solid black;
+}
+
+#b6 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#b7 {
+	border-top: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#b8 {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#b9 {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid dodgerblue;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: whitesmoke;
+	color: dodgerblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+#but:hover{
+ background-color: dodgerblue;
+ color:white;
+}
+/* Player turn space */
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	font-size: 22px;
+	color: green;
+	font-weight: bold;
+}
+
+/* Main Container */
+#main {
+	text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	color: dodgerblue;
+}
